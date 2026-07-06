@@ -4,6 +4,8 @@ Este é um mapa de território, não uma fila única. A ideia é o aluno avança
 
 Base usada: `banco_questoes.jsonl` de matemática do repo, 495 questões catalogadas de 2008 a 2026.
 
+Referências de capítulos: edições atualizadas (2013) da coleção FME.
+
 ## Como usar
 
 Para cada território:
@@ -51,16 +53,27 @@ Objetivo: parar de perder questão por álgebra, notação ou manipulação.
 
 ### Estudar
 
-- **FME 1**: noções de lógica, conjuntos, conjuntos numéricos, intervalos, relações.
-- **FME 1**: funções, domínio, imagem, composição, inversa, inequações.
-- **FME 2**: propriedades de logaritmos, mudança de base, equações e inequações logarítmicas.
+- **FME 1 Cap. 1-2**: noções de lógica, conjuntos, operações com conjuntos.
+- **FME 1 Cap. 3-4**: conjuntos numéricos, intervalos reais, módulo, inequações.
+- **FME 1 Cap. 5-7**: relações, funções, composição, inversa.
+- **FME 1 Cap. 8-11**: função modular, funções do 1º e 2º grau, equações e inequações.
+- **FME 2 Cap. 1-3**: potenciação, radiciação, função exponencial.
+- **FME 2 Cap. 4-9**: logaritmos, propriedades, mudança de base, equações e inequações logarítmicas.
 - Revisar álgebra: fatoração, produtos notáveis, radicais, módulo, inequações.
 
 ### Questões ITA para validar
 
-- Conjuntos: `mat-2008-f1-q19`, `mat-2010-f1-q01`, `mat-2013-f1-q01`, `mat-2024-f1-q37`
-- Números reais/inequações: `mat-2008-f1-q21`, `mat-2012-f1-q05`, `mat-2014-f1-q01`, `mat-2015-f1-q01`, `mat-2017-f1-q07`, `mat-2020-f1-q52`
-- Funções/log/exponenciais: `mat-2008-f1-q14`, `mat-2008-f1-q15`, `mat-2008-f1-q23`, `mat-2009-f1-q03`, `mat-2009-f1-q21`, `mat-2010-f1-q02`, `mat-2010-f1-q06`, `mat-2011-f1-q11`
+Conjuntos e lógica:
+`mat-2008-f1-q19`, `mat-2010-f1-q01`, `mat-2013-f1-q01`, `mat-2024-f1-q37`
+
+Números reais/inequações:
+`mat-2008-f1-q21`, `mat-2012-f1-q05`, `mat-2014-f1-q01`, `mat-2015-f1-q01`, `mat-2017-f1-q07`, `mat-2020-f1-q52`
+
+Funções (domínio, imagem, composição, inversa):
+`mat-2008-f1-q15`, `mat-2009-f1-q03`, `mat-2009-f1-q23`, `mat-2010-f1-q02`, `mat-2010-f1-q06`, `mat-2010-f1-q23`, `mat-2010-f1-q24`, `mat-2012-f1-q28`, `mat-2013-f1-q06`, `mat-2013-f1-q07`, `mat-2014-f1-q02`, `mat-2017-f1-q01`, `mat-2018-f1-q04`, `mat-2025-f1-q04`
+
+Logaritmos e exponenciais:
+`mat-2008-f1-q14`, `mat-2008-f1-q23`, `mat-2009-f1-q21`, `mat-2011-f1-q24`, `mat-2014-f1-q03`, `mat-2014-f1-q22`, `mat-2017-f1-q10`, `mat-2017-f1-q22`, `mat-2018-f1-q09`, `mat-2018-f1-q22`, `mat-2022-f1-q41`, `mat-2026-f1-q02`
 
 ### Marco de domínio
 
@@ -74,31 +87,50 @@ O aluno deve conseguir descobrir domínio/imagem, inverter função, compor fun�
 
 ### Estudar
 
-- **FME 6**: forma algébrica, conjugado, módulo.
-- **FME 6**: forma trigonométrica/polar.
-- **FME 6**: potências, raízes da unidade, De Moivre.
-- **FME 6**: interpretação geométrica no plano complexo.
+- **FME 6 Cap. 1**: forma algébrica — operações, conjugado, módulo, igualdade.
+- **FME 6 Cap. 2**: representação geométrica no plano complexo — módulo como distância, argumento.
+- **FME 6 Cap. 3**: forma trigonométrica/polar — conversão, multiplicação como rotação.
+- **FME 6 Cap. 4**: potências, raízes da unidade, fórmula de De Moivre.
 
 ### Questões ITA
 
-`mat-2008-f1-q02`, `mat-2008-f1-q22`, `mat-2009-f1-q04`, `mat-2009-f1-q22`, `mat-2010-f1-q03`, `mat-2010-f1-q04`, `mat-2011-f1-q01`, `mat-2011-f1-q02`, `mat-2011-f1-q03`, `mat-2011-f1-q22`, `mat-2012-f1-q03`, `mat-2012-f1-q04`
+Forma algébrica e conjugado:
+`mat-2008-f1-q02`, `mat-2010-f1-q03`, `mat-2011-f1-q02`, `mat-2014-f1-q04`, `mat-2014-f1-q05`, `mat-2017-f1-q15`
+
+Forma trigonométrica, polar e De Moivre:
+`mat-2008-f1-q22`, `mat-2009-f1-q04`, `mat-2010-f1-q04`, `mat-2011-f1-q01`, `mat-2012-f1-q03`, `mat-2013-f1-q03`, `mat-2013-f1-q21`, `mat-2016-f1-q12`, `mat-2018-f1-q08`, `mat-2018-f1-q24`, `mat-2020-f2-q06`, `mat-2021-f2-q06`
+
+Plano complexo e lugar geométrico:
+`mat-2009-f1-q22`, `mat-2011-f1-q22`, `mat-2014-f1-q23`, `mat-2015-f1-q24`, `mat-2019-f2-q03`, `mat-2025-f1-q01`
+
+Raízes e potências:
+`mat-2012-f1-q04`, `mat-2015-f1-q02`, `mat-2015-f1-q03`, `mat-2020-f2-q07`, `mat-2024-f1-q46`, `mat-2026-f1-q01`
 
 ### Marco de domínio
 
-Complexos deixam de ser “conta” e viram geometria: módulo como distância, argumento como ângulo, raiz como rotação.
+Complexos deixam de ser "conta" e viram geometria: módulo como distância, argumento como ângulo, raiz como rotação.
 
 ## Território B — Polinômios e equações
 
 ### Estudar
 
-- **FME 6**: grau, operações, divisão, resto, fatoração.
-- **FME 6**: raízes, multiplicidade, relações de Girard.
-- **FME 6**: raízes reais e complexas, conjugadas, inteiras/racionais.
-- **FME 6**: equações algébricas e parâmetros.
+- **FME 6 Cap. 5**: polinômios — grau, operações, divisão, resto, identidade, fatoração.
+- **FME 6 Cap. 6**: equações polinomiais — raízes, multiplicidade, raízes reais e complexas conjugadas.
+- **FME 6 Cap. 7**: relações de Girard, raízes inteiras e racionais, equações recíprocas.
 
 ### Questões ITA
 
-`mat-2008-f1-q08`, `mat-2008-f1-q09`, `mat-2008-f1-q10`, `mat-2008-f1-q24`, `mat-2008-f1-q26`, `mat-2009-f1-q05`, `mat-2009-f1-q06`, `mat-2009-f1-q07`, `mat-2009-f1-q08`, `mat-2009-f1-q24`, `mat-2010-f1-q08`, `mat-2010-f1-q09`
+Relações de Girard e raízes:
+`mat-2008-f1-q09`, `mat-2008-f1-q10`, `mat-2009-f1-q05`, `mat-2009-f1-q06`, `mat-2009-f1-q07`, `mat-2009-f1-q08`, `mat-2009-f1-q24`, `mat-2010-f1-q08`, `mat-2010-f1-q09`, `mat-2010-f1-q10`, `mat-2018-f1-q15`, `mat-2023-f1-q37`
+
+Fatoração e divisão polinomial:
+`mat-2008-f1-q24`, `mat-2016-f1-q22`, `mat-2020-f2-q03`, `mat-2020-f2-q05`, `mat-2024-f1-q37`, `mat-2024-f1-q39`, `mat-2025-f1-q03`
+
+Raízes complexas e conjugação:
+`mat-2008-f1-q26`, `mat-2018-f1-q10`, `mat-2020-f1-q43`, `mat-2020-f2-q06`
+
+Equações e parâmetros:
+`mat-2013-f1-q09`, `mat-2014-f1-q06`, `mat-2017-f1-q09`, `mat-2022-f2-q03`, `mat-2023-f2-q02`
 
 ### Marco de domínio
 
@@ -112,13 +144,20 @@ O aluno precisa enxergar fatoração, simetria de raízes, Girard e divisibilida
 
 ### Estudar
 
-- **FME 4**: matrizes, operações, produto, inversa.
-- **FME 4**: determinantes e propriedades.
-- **FME 4**: sistemas lineares, escalonamento, discussão com parâmetros.
+- **FME 4 Cap. 5**: matrizes — definição, operações, produto, transposta, inversa.
+- **FME 4 Cap. 6**: determinantes — propriedades, cálculo, expansão de Laplace.
+- **FME 4 Cap. 7**: sistemas lineares — escalonamento, discussão com parâmetros, regra de Cramer.
 
 ### Questões ITA
 
-`mat-2008-f1-q03`, `mat-2008-f1-q04`, `mat-2008-f1-q25`, `mat-2009-f1-q09`, `mat-2009-f1-q10`, `mat-2009-f1-q11`, `mat-2009-f1-q26`, `mat-2010-f1-q13`, `mat-2010-f1-q14`, `mat-2010-f1-q27`, `mat-2011-f1-q06`, `mat-2011-f1-q07`
+Matrizes e operações:
+`mat-2008-f1-q04`, `mat-2008-f1-q25`, `mat-2009-f1-q26`, `mat-2011-f1-q25`, `mat-2014-f1-q09`, `mat-2015-f1-q13`, `mat-2016-f1-q11`, `mat-2016-f1-q24`, `mat-2021-f1-q41`, `mat-2022-f1-q46`, `mat-2023-f1-q37`, `mat-2026-f1-q03`, `mat-2026-f1-q07`
+
+Determinantes:
+`mat-2008-f1-q03`, `mat-2010-f1-q13`, `mat-2010-f1-q14`, `mat-2011-f1-q06`, `mat-2012-f1-q23`, `mat-2013-f1-q13`, `mat-2014-f1-q08`, `mat-2014-f1-q10`, `mat-2017-f1-q11`, `mat-2018-f1-q15`, `mat-2021-f2-q02`
+
+Sistemas lineares:
+`mat-2009-f1-q09`, `mat-2009-f1-q10`, `mat-2010-f1-q27`, `mat-2011-f1-q07`, `mat-2014-f1-q26`, `mat-2016-f1-q08`, `mat-2017-f1-q27`, `mat-2019-f1-q41`, `mat-2022-f1-q43`, `mat-2023-f2-q01`, `mat-2025-f1-q07`
 
 ### Marco de domínio
 
@@ -128,13 +167,18 @@ Saber calcular determinante não basta. O aluno precisa usar determinante como l
 
 ### Estudar
 
-- **FME 4**: sequências, PA, PG, somas.
-- **FME 4**: recorrências simples.
-- **FME 4/FME 1**: somatórios, manipulação algébrica, indução informal.
+- **FME 4 Cap. 1**: sequências — definição, classificação, representação.
+- **FME 4 Cap. 2**: progressão aritmética — termo geral, soma, propriedades.
+- **FME 4 Cap. 3**: progressão geométrica — termo geral, soma, PG infinita.
+- **FME 4 Cap. 4**: somatórios — manipulação, mudança de índice, fórmulas.
 
 ### Questões ITA
 
+PA e PG:
 `mat-2008-f1-q05`, `mat-2010-f1-q05`, `mat-2010-f1-q22`, `mat-2012-f1-q07`, `mat-2015-f1-q05`, `mat-2015-f1-q23`, `mat-2016-f1-q05`, `mat-2017-f1-q03`, `mat-2017-f1-q25`, `mat-2018-f1-q03`, `mat-2018-f1-q18`, `mat-2019-f1-q43`
+
+Somatórios e recorrências:
+`mat-2008-f1-q16`, `mat-2022-f2-q03`, `mat-2025-f2-q08`
 
 ### Marco de domínio
 
@@ -148,30 +192,37 @@ Reconhecer PA/PG escondida em geometria, polinômios, contagem e problemas de re
 
 ### Estudar
 
-- **FME 5**: princípio fundamental da contagem.
-- **FME 5**: permutações, arranjos, combinações.
-- **FME 5**: binômio de Newton e identidades binomiais.
-- **FME 5**: inclusão-exclusão, contagem por casos, simetria.
+- **FME 5 Cap. 1**: princípio fundamental da contagem, princípio aditivo e multiplicativo.
+- **FME 5 Cap. 2**: permutações simples e com repetição, arranjos, combinações, permutações circulares.
+- **FME 5 Cap. 3**: binômio de Newton, triângulo de Pascal, identidades binomiais.
+- **FME 5 Cap. 2-3 (exercícios avançados)**: inclusão-exclusão, contagem por casos, simetria, números de Stirling.
 
 ### Questões ITA
 
-`mat-2008-f1-q17`, `mat-2009-f1-q01`, `mat-2009-f1-q02`, `mat-2010-f1-q11`, `mat-2010-f1-q21`, `mat-2011-f1-q23`, `mat-2012-f1-q01`, `mat-2012-f1-q14`, `mat-2012-f1-q21`, `mat-2014-f1-q07`, `mat-2016-f1-q19`, `mat-2018-f1-q26`
+Contagem:
+`mat-2008-f1-q17`, `mat-2009-f1-q01`, `mat-2009-f1-q02`, `mat-2011-f1-q05`, `mat-2011-f1-q23`, `mat-2012-f1-q14`, `mat-2014-f1-q25`, `mat-2016-f1-q19`, `mat-2017-f1-q08`, `mat-2017-f1-q24`, `mat-2021-f2-q07`, `mat-2024-f1-q40`, `mat-2024-f1-q41`, `mat-2026-f1-q11`
+
+Binômio de Newton e combinações:
+`mat-2010-f1-q11`, `mat-2010-f1-q12`, `mat-2010-f1-q21`, `mat-2012-f1-q21`, `mat-2013-f1-q24`, `mat-2014-f1-q07`, `mat-2016-f1-q03`, `mat-2018-f1-q06`, `mat-2018-f1-q26`, `mat-2023-f2-q10`
 
 ## Território F — Probabilidade
 
 ### Estudar
 
-- **FME 5**: espaço amostral, eventos, complementar.
-- **FME 5**: probabilidade condicional, independência, Bayes.
-- **FME 5**: distribuição binomial, hipergeométrica, esperança simples.
+- **FME 5 Cap. 4**: probabilidade — espaço amostral, eventos, probabilidade clássica, complementar.
+- **FME 5 Cap. 5**: probabilidade condicional, eventos independentes, teorema de Bayes, distribuição binomial.
 
 ### Questões ITA
 
-`mat-2008-f1-q01`, `mat-2008-f1-q27`, `mat-2009-f1-q12`, `mat-2009-f1-q25`, `mat-2010-f1-q12`, `mat-2010-f1-q26`, `mat-2011-f1-q04`, `mat-2013-f1-q11`, `mat-2013-f1-q12`, `mat-2014-f1-q24`, `mat-2015-f1-q26`, `mat-2025-f2-q06`
+Probabilidade clássica e condicional:
+`mat-2008-f1-q01`, `mat-2008-f1-q27`, `mat-2009-f1-q12`, `mat-2009-f1-q25`, `mat-2010-f1-q12`, `mat-2010-f1-q26`, `mat-2011-f1-q04`, `mat-2012-f1-q02`, `mat-2013-f1-q11`, `mat-2013-f1-q12`, `mat-2014-f1-q24`, `mat-2015-f1-q26`, `mat-2017-f1-q19`, `mat-2018-f1-q19`, `mat-2020-f2-q02`
+
+Distribuições e esperança:
+`mat-2012-f1-q02`, `mat-2016-f1-q25`, `mat-2021-f2-q10`, `mat-2025-f2-q06`
 
 ### Marco de domínio
 
-O aluno deve separar “contar casos” de “calcular probabilidade”. Em ITA, o erro comum é escolher o espaço amostral errado.
+O aluno deve separar "contar casos" de "calcular probabilidade". Em ITA, o erro comum é escolher o espaço amostral errado.
 
 ---
 
@@ -181,15 +232,19 @@ O aluno deve separar “contar casos” de “calcular probabilidade”. Em ITA,
 
 ### Estudar
 
-- **FME 3**: ciclo trigonométrico, seno, cosseno, tangente.
-- **FME 3**: identidades fundamentais.
-- **FME 3**: soma e diferença de arcos, arco duplo, arco metade.
-- **FME 3**: equações trigonométricas.
-- **FME 3 + FME 9**: lei dos senos, lei dos cossenos, área trigonométrica.
+- **FME 3 Cap. 1-2**: razões trigonométricas, arcos e ângulos, ciclo trigonométrico.
+- **FME 3 Cap. 4-5**: identidades fundamentais, prova e simplificação.
+- **FME 3 Cap. 6-7**: soma e diferença de arcos, arco duplo, arco metade, transformações.
+- **FME 3 Cap. 8**: equações trigonométricas.
+- **FME 3 Cap. 9 + FME 9 Cap. 6**: lei dos senos, lei dos cossenos, área trigonométrica.
 
 ### Questões ITA
 
-`mat-2008-f1-q11`, `mat-2008-f1-q13`, `mat-2008-f1-q16`, `mat-2009-f1-q13`, `mat-2009-f1-q17`, `mat-2009-f1-q27`, `mat-2010-f1-q07`, `mat-2010-f1-q15`, `mat-2010-f1-q16`, `mat-2010-f1-q28`, `mat-2011-f1-q14`, `mat-2011-f1-q17`
+Identidades e equações:
+`mat-2008-f1-q11`, `mat-2008-f1-q13`, `mat-2008-f1-q16`, `mat-2009-f1-q13`, `mat-2009-f1-q27`, `mat-2010-f1-q15`, `mat-2010-f1-q16`, `mat-2010-f1-q28`, `mat-2011-f1-q14`, `mat-2012-f1-q20`, `mat-2013-f1-q05`, `mat-2013-f1-q14`, `mat-2014-f1-q15`, `mat-2014-f1-q23`, `mat-2016-f1-q04`, `mat-2016-f1-q15`, `mat-2016-f1-q18`, `mat-2017-f1-q04`, `mat-2019-f1-q38`, `mat-2019-f1-q46`, `mat-2023-f1-q46`, `mat-2024-f1-q49`
+
+Lei dos senos/cossenos e triângulos:
+`mat-2009-f1-q17`, `mat-2010-f1-q07`, `mat-2011-f1-q17`, `mat-2011-f1-q25`, `mat-2016-f1-q07`, `mat-2017-f1-q20`, `mat-2022-f2-q08`, `mat-2023-f1-q42`, `mat-2023-f1-q46`
 
 ### Marco de domínio
 
@@ -203,43 +258,74 @@ Trigonometria não é decorar fórmula; é converter ângulo, comprimento, área
 
 ### Estudar
 
-- **FME 9**: ângulos, paralelas, triângulos.
-- **FME 9**: congruência, semelhança, relações métricas.
-- **FME 9**: circunferência, potência de ponto, polígonos.
-- **FME 9**: áreas.
-- **FME 3**: lei dos senos/cossenos quando aparecer trigonometria.
+- **FME 9 Cap. 1**: ângulos — classificação, ângulos complementares e suplementares.
+- **FME 9 Cap. 2**: triângulos — classificação, congruência, pontos notáveis.
+- **FME 9 Cap. 3**: quadriláteros e polígonos — propriedades, diagonais, ângulos internos.
+- **FME 9 Cap. 4**: circunferência — arcos, cordas, tangentes, ângulos inscritos, potência de ponto.
+- **FME 9 Cap. 5**: semelhança de triângulos — critérios, poligonais.
+- **FME 9 Cap. 6**: relações métricas nos triângulos — Pitágoras, projeções, bissetriz.
+- **FME 9 Cap. 7**: áreas de figuras planas.
 
 ### Questões ITA
 
-`mat-2008-f1-q07`, `mat-2008-f1-q18`, `mat-2008-f1-q20`, `mat-2008-f1-q28`, `mat-2009-f1-q15`, `mat-2011-f1-q15`, `mat-2011-f1-q16`, `mat-2011-f1-q18`, `mat-2011-f1-q29`, `mat-2011-f1-q30`, `mat-2012-f1-q09`, `mat-2012-f1-q30`
+Triângulos e relações métricas:
+`mat-2008-f1-q07`, `mat-2008-f1-q18`, `mat-2008-f1-q20`, `mat-2008-f1-q28`, `mat-2009-f1-q15`, `mat-2011-f1-q15`, `mat-2011-f1-q16`, `mat-2014-f1-q14`, `mat-2014-f1-q16`, `mat-2014-f1-q17`, `mat-2015-f1-q18`, `mat-2016-f1-q20`, `mat-2017-f1-q16`, `mat-2017-f1-q20`
+
+Circunferência e polígonos:
+`mat-2008-f1-q07`, `mat-2009-f1-q15`, `mat-2011-f1-q29`, `mat-2011-f1-q30`, `mat-2012-f1-q09`, `mat-2012-f1-q30`, `mat-2016-f1-q06`, `mat-2016-f1-q23`, `mat-2018-f1-q01`, `mat-2020-f1-q46`, `mat-2023-f1-q39`
+
+Áreas:
+`mat-2017-f1-q09`, `mat-2021-f1-q50`, `mat-2024-f1-q45`
 
 ## Território I — Geometria analítica
 
 ### Estudar
 
-- **FME 7**: plano cartesiano, distância, ponto médio, área.
-- **FME 7**: reta, inclinação, ângulo, distância ponto-reta.
-- **FME 7**: circunferência.
-- **FME 7**: cônicas — parábola, elipse, hipérbole.
-- **FME 7 + FME 6**: lugares geométricos e álgebra pesada.
+- **FME 7 Cap. 1-2**: coordenadas no plano, distância entre pontos, ponto médio.
+- **FME 7 Cap. 3**: reta — equações, inclinação, paralelismo, perpendicularismo, distância ponto-reta, feixe de retas.
+- **FME 7 Cap. 4**: circunferência — equação geral e reduzida, posições relativas, tangência.
+- **FME 7 Cap. 5**: parábola — vértice, foco, diretriz.
+- **FME 7 Cap. 6**: elipse — elementos, equações.
+- **FME 7 Cap. 7**: hipérbole — elementos, equações, assíntotas.
+- **FME 7 Cap. 8**: lugares geométricos.
 
 ### Questões ITA
 
-`mat-2008-f1-q12`, `mat-2008-f1-q30`, `mat-2009-f1-q14`, `mat-2009-f1-q16`, `mat-2009-f1-q18`, `mat-2009-f1-q28`, `mat-2009-f1-q29`, `mat-2010-f1-q17`, `mat-2010-f1-q19`, `mat-2010-f1-q29`, `mat-2011-f1-q13`, `mat-2012-f1-q10`
+Reta e distância:
+`mat-2008-f1-q30`, `mat-2009-f1-q14`, `mat-2009-f1-q18`, `mat-2009-f1-q29`, `mat-2012-f1-q11`, `mat-2012-f1-q12`, `mat-2014-f1-q19`, `mat-2015-f1-q14`, `mat-2015-f1-q15`, `mat-2017-f1-q05`, `mat-2017-f1-q21`, `mat-2022-f1-q42`, `mat-2024-f1-q47`, `mat-2026-f1-q09`
+
+Circunferência:
+`mat-2009-f1-q28`, `mat-2010-f1-q17`, `mat-2010-f1-q29`, `mat-2011-f1-q13`, `mat-2012-f1-q10`, `mat-2016-f1-q28`, `mat-2018-f1-q07`, `mat-2018-f1-q23`, `mat-2022-f2-q09`
+
+Cônicas:
+`mat-2008-f1-q12`, `mat-2009-f1-q16`, `mat-2010-f1-q19`, `mat-2013-f1-q17`, `mat-2015-f1-q29`, `mat-2019-f2-q05`, `mat-2021-f1-q44`, `mat-2023-f2-q07`, `mat-2025-f1-q11`, `mat-2025-f2-q02`
+
+Lugares geométricos:
+`mat-2016-f1-q26`, `mat-2022-f1-q48`
 
 ## Território J — Geometria espacial
 
 ### Estudar
 
-- **FME 10**: posições relativas, paralelismo, perpendicularidade.
-- **FME 10**: prismas, pirâmides, cilindros, cones, esfera.
-- **FME 10**: áreas e volumes.
-- **FME 10**: poliedros, Euler, sólidos inscritos/circunscritos.
-- **FME 9/FME 3**: seções planas e trigonometria dentro do sólido.
+- **FME 10 Cap. 1**: posições relativas entre retas e planos — paralelismo, perpendicularidade, diedros, triedros.
+- **FME 10 Cap. 2**: prismas — classificação, áreas, volumes.
+- **FME 10 Cap. 3**: pirâmides — regulares, troncos, áreas, volumes.
+- **FME 10 Cap. 4**: cilindros — equilátero, áreas, volume.
+- **FME 10 Cap. 5**: cones — retos, troncos, áreas, volume, relação de semelhança.
+- **FME 10 Cap. 6**: esfera — posição relativa, esferas inscritas/circunscritas, calota, zona.
+- **FME 10 Cap. 7**: poliedros — Euler, regulares, relação com sólidos inscritos/circunscritos.
+- **FME 9 Cap. 5 + FME 3 Cap. 9**: seções planas e trigonometria dentro do sólido.
 
 ### Questões ITA
 
-`mat-2008-f1-q06`, `mat-2008-f1-q29`, `mat-2009-f1-q19`, `mat-2009-f1-q20`, `mat-2009-f1-q30`, `mat-2010-f1-q18`, `mat-2010-f1-q20`, `mat-2010-f1-q30`, `mat-2011-f1-q19`, `mat-2011-f1-q20`, `mat-2011-f1-q27`, `mat-2012-f1-q19`
+Prismas, pirâmides e sólidos de revolução:
+`mat-2008-f1-q06`, `mat-2008-f1-q29`, `mat-2009-f1-q19`, `mat-2009-f1-q20`, `mat-2010-f1-q18`, `mat-2010-f1-q20`, `mat-2012-f1-q19`, `mat-2012-f1-q20`, `mat-2012-f1-q25`, `mat-2014-f1-q18`, `mat-2014-f1-q20`, `mat-2014-f1-q30`
+
+Esferas e poliedros:
+`mat-2010-f1-q30`, `mat-2011-f1-q19`, `mat-2011-f1-q20`, `mat-2011-f1-q27`, `mat-2018-f1-q21`, `mat-2020-f2-q10`, `mat-2022-f2-q10`
+
+Sólidos inscritos/circunscritos e seções:
+`mat-2009-f1-q30`, `mat-2016-f1-q17`, `mat-2016-f1-q30`, `mat-2019-f2-q08`, `mat-2021-f1-q51`, `mat-2022-f1-q49`, `mat-2022-f1-q50`, `mat-2023-f2-q08`, `mat-2024-f1-q43`, `mat-2024-f1-q44`, `mat-2025-f2-q10`
 
 ### Marco de domínio
 
@@ -267,15 +353,15 @@ Não há um volume dedicado na coleção FME clássica, mas aparece em problemas
 
 `mat-2013-f1-q08`, `mat-2017-f1-q13`, `mat-2019-f2-q07`, `mat-2020-f1-q49`, `mat-2020-f2-q03`, `mat-2025-f1-q12`
 
-## Cálculo / FME 8
+## Cálculo / FME 8 (Cap. 1-6)
 
 Baixa prioridade como eixo principal para ITA, mas útil como maturidade matemática.
 
 ### Estudar se houver tempo
 
-- Limite intuitivo e algébrico.
-- Derivada como taxa/otimização.
-- Noções de integral.
+- **FME 8 Cap. 1-3**: limite intuitivo, algébrico, continuidade.
+- **FME 8 Cap. 4-5**: derivada como taxa/otimização, reta tangente.
+- **FME 8 Cap. 6**: noções de integral.
 
 ### Uso real
 
@@ -291,45 +377,47 @@ Baixa prioridade para ITA matemática. Estudar depois do núcleo, se a preparaç
 
 ## Ciclo 1 — Base algébrica
 
-1. FME 1 — conjuntos, reais, funções.
-2. FME 2 — logaritmos, como extensão de funções.
-3. FME 6 — complexos.
-4. FME 6 — polinômios/equações.
+1. FME 1 Cap. 1-4 — conjuntos, reais, intervalos.
+2. FME 1 Cap. 5-11 — funções, composição, inversa, modular, 1º e 2º grau, inequações.
+3. FME 2 — logaritmos e exponenciais como extensão de funções.
+4. FME 6 Cap. 1-4 — complexos.
+5. FME 6 Cap. 5-7 — polinômios, raízes, Girard, fatoração.
 
 ## Ciclo 2 — Estrutura e contagem
 
-5. FME 4 — matrizes, determinantes, sistemas.
-6. FME 4 — sequências e progressões.
-7. FME 5 — combinatória.
-8. FME 5 — probabilidade.
+6. FME 4 Cap. 5-7 — matrizes, determinantes, sistemas.
+7. FME 4 Cap. 1-4 — sequências, PA, PG, somatórios.
+8. FME 5 Cap. 1-3 — combinatória e binômio.
+9. FME 5 Cap. 4-5 — probabilidade.
 
 ## Ciclo 3 — Geometria e trigonometria
 
-9. FME 3 — trigonometria.
-10. FME 9 — geometria plana.
-11. FME 7 — geometria analítica.
-12. FME 10 — geometria espacial.
+10. FME 3 — trigonometria.
+11. FME 9 — geometria plana.
+12. FME 7 — geometria analítica.
+13. FME 10 — geometria espacial.
 
 ## Ciclo 4 — Revisão ITA
 
-13. Refazer questões erradas por assunto.
-14. Misturar assuntos em simulados.
-15. Criar caderno de padrões: “quando vejo X, tento Y”.
-16. Voltar ao Iezzi só nos buracos detectados.
+14. Refazer questões erradas por assunto.
+15. Misturar assuntos em simulados.
+16. Criar caderno de padrões: "quando vejo X, tento Y".
+17. Voltar ao Iezzi só nos buracos detectados.
 
 ---
 
 # Checklist de conquista por território
 
-- [ ] FME 1 — conjuntos e lógica básica.
-- [ ] FME 1 — funções, composição, inversa, domínio/imagem.
+- [ ] FME 1 Cap. 1-2 — conjuntos e lógica básica.
+- [ ] FME 1 Cap. 3-4 — conjuntos numéricos, intervalos, módulo.
+- [ ] FME 1 Cap. 5-11 — funções, composição, inversa, domínio/imagem, inequações.
 - [ ] FME 2 — logaritmos e exponenciais.
-- [ ] FME 6 — complexos algébricos e geométricos.
-- [ ] FME 6 — polinômios, raízes, Girard, fatoração.
-- [ ] FME 4 — matrizes, determinantes, sistemas.
-- [ ] FME 4 — PA, PG, somas, recorrências.
-- [ ] FME 5 — contagem e binômio.
-- [ ] FME 5 — probabilidade, condicional, Bayes.
+- [ ] FME 6 Cap. 1-4 — complexos algébricos e geométricos.
+- [ ] FME 6 Cap. 5-7 — polinômios, raízes, Girard, fatoração.
+- [ ] FME 4 Cap. 5-7 — matrizes, determinantes, sistemas.
+- [ ] FME 4 Cap. 1-4 — PA, PG, somas, recorrências.
+- [ ] FME 5 Cap. 1-3 — contagem e binômio.
+- [ ] FME 5 Cap. 4-5 — probabilidade, condicional, Bayes.
 - [ ] FME 3 — identidades e equações trigonométricas.
 - [ ] FME 9 — geometria plana.
 - [ ] FME 7 — geometria analítica.
